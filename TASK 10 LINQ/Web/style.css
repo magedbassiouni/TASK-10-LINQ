@@ -1,0 +1,137 @@
+/* Page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+}
+
+
+/* Main Title */
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+/* Description */
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+
+/* Form */
+
+form {
+    background-color: white;
+    width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Fieldsets */
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
+/* Legends */
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+
+/* Labels */
+
+label {
+    font-size: 16px;
+}
+
+
+/* Text Inputs */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 250px;
+    padding: 8px;
+    margin-left: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+
+/* Textarea */
+
+textarea {
+    width: 95%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+
+/* Select */
+
+select {
+    padding: 6px;
+    margin-left: 10px;
+}
+
+
+/* Range */
+
+input[type="range"] {
+    margin-left: 10px;
+}
+
+
+/* Buttons */
+
+button {
+    padding: 8px 18px;
+    margin-right: 8px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+    /* Submit Button */
+
+    button[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        border: none;
+    }
+
+
+    /* Reset Button */
+
+    button[type="reset"] {
+        background-color: #eee;
+    }
+     
+
+    /* Button Hover */
+
+    button:hover {
+        opacity: 0.8;
+    }
